@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>gallery</title>
+	<script type="text/javascript" src="js/js-move.js"></script>
+	<script type="text/javascript" src="js/gallery.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="intro">
+		<h1>功能说明</h1>
+		<ul>
+			<li>如果鼠标没有停在相册区域，则自动播放</li>
+			<li>如果鼠标停在相册区域，则停止自动播放</li>
+			<li>鼠标停在大图的左右两侧，就会出现控制照片左右播放的按钮</li>
+			<li>下方的缩略图，会随着当前照片的变化而移动，并且透明度也有所变化</li>
+			<li>也可以直接点击缩略图，选取图片来查看</li>
+		</ul>
+	</div>
+	<div class="gallery">
+
+		<div class="pic-big">
+
+			<img class="arrow-left arrow-size" src="img/left_arrow.png">
+			<img class="arrow-right arrow-size" src="img/right_arrow.png">
+
+			<div class="mask-left"></div>
+			<div class="mask-right"></div>
+
+			<ul>
+				<li class="active-img"><img src="img/1.jpg"></li>
+				<li><img src="img/2.jpg"></li>
+				<li><img src="img/3.jpg"></li>
+				<li><img src="img/4.jpg"></li>
+				<li><img src="img/5.jpg"></li>
+				<li><img src="img/6.jpg"></li>
+			</ul>
+		</div>
+
+		<div class="pic-small">
+			<ul>
+				<li class="active-img"><img src="img/1.jpg"></li>
+				<li><img src="img/2.jpg"></li>
+				<li><img src="img/3.jpg"></li>
+				<li><img src="img/4.jpg"></li>
+				<li><img src="img/5.jpg"></li>
+				<li><img src="img/6.jpg"></li>
+			</ul>
+		</div>
+</body>
+</html>
